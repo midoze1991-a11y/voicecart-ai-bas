@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceCart AI - Basic Setup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-md w-full bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl space-y-6">
+        <div class="text-center space-y-1">
+            <h1 class="text-2xl font-bold text-white">Basic Voice Agent</h1>
+            <p class="text-xs text-slate-400">Quick Vapi Agent Integration</p>
+        </div>
+        <div class="space-y-4">
+            <div>
+                <label class="text-xs text-slate-400 block mb-1">Vapi Public Key</label>
+                <input type="text" id="basicKey" placeholder="vapi-public-key" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-blue-500">
+            </div>
+            <div>
+                <label class="text-xs text-slate-400 block mb-1">Assistant ID</label>
+                <input type="text" id="basicAssistant" placeholder="assistant-id" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-3 text-sm text-white focus:outline-none focus:border-blue-500">
+            </div>
+            <button onclick="alert('Basic Agent Configured Successfully!')" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-lg text-sm transition">Activate Agent</button>
+        </div>
+    </div>
+</body>
+</html>
